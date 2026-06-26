@@ -1,17 +1,21 @@
 public class FizzBuzz {
     public static void main(String[] args) {
         int sum = 0;
-        for (int i = 1; i <= 10; i++) {
-            if (i % 3 == 0 && i % 5 == 0) {
-                System.out.println("Вообше топ: "+i);
-            }else if (i % 3 == 0) {
-                System.out.println("нечетный числа: "+i);
-            }else if (i % 5 == 0) {
-                System.out.println("четный числа: "+i);
+        for (int i = 1; i <= 20; i++) {
+            if (i%3==0 && i%5==0){
+                System.out.println("FizzBuzz-"+i);
+            } else if (i%3==0){
+                System.out.println("Fizz-"+i);
+            }else if (i%5==0){
+                System.out.println("Buzz-"+i);
+            }else  {
+                System.out.println(i);
             }
-            if (i % 2 == 0) {}
-            sum = sum + i;
+
+            if (i%2==0){
+                sum = sum + i;
+            }
         }
-        System.out.println("Сумма чисел: "+sum);
+        System.out.println("Сумма четных чисел: "+ sum);
     }
 }
