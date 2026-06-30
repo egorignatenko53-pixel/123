@@ -7,6 +7,7 @@ public class Main {
         System.out.println("Меня зовут: " + name);
         System.out.println("Мне " + age + " лет");
     }
+
     static void printBook(String name, int year) {
         System.out.println("Книга: " + name + ", год: " + year);
     }
@@ -28,11 +29,11 @@ public class Main {
         book2.name = "Harry Potter";
         book2.year = 2004;
         printUser(user1.name, user1.age);
-        System.out.println("Сумма:"+ (a + b));
-        System.out.println("Умножение:"+ (a * b));
-        System.out.println("Разность:"+ (a - b));
-        System.out.println("Остаток:"+ (a % b));
-        System.out.println("деление:"+ (a / b));
+        System.out.println("Сумма:" + (a + b));
+        System.out.println("Умножение:" + (a * b));
+        System.out.println("Разность:" + (a - b));
+        System.out.println("Остаток:" + (a % b));
+        System.out.println("деление:" + (a / b));
         System.out.println("Понятно? И напомни как тебя зовут и сколько тебе лет");
         printUser(user2.name, user2.age);
         printBook(book1.name, book1.year);
