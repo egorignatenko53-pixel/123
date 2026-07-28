@@ -29,8 +29,10 @@ public class Reapet {
         }
         greet("Egor");
         greet("Alina");
-        System.out.println(s1.name + " сдал? " + isPassed(s1.grade));
-        System.out.println(s2.name + " сдала? " + isPassed(s2.grade));
+        System.out.println(s1.name + " сдал? " + s1.isPassed());
+        System.out.println(s2.name + " сдал? " + s2.isPassed());
+        s1.printInfo();
+        s2.printInfo();
         int[] grades = {45, 70, 88, 30, 95};   // список оценок
         int count = 0;                          // счётчик сдавших (накопитель)
 

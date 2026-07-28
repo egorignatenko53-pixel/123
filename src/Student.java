@@ -6,4 +6,11 @@ public class Student {
         this.name = name;
         this.grade = grade;
     }
+
+    public boolean isPassed() {
+        return this.grade >= 60;
+    }
+    public void printInfo() {
+        System.out.println(this.name + " -оценка " + this.grade);
+    }
 }
