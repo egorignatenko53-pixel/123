@@ -9,8 +9,10 @@ public class Garage {
         Car[] cars = {c1,c2,c3,c4,c5};
         for(Car c : cars) {
             c.printInfo();
-            System.out.println(c.brand + "fast?"+ c.isFast());
+            System.out.println(c.getBrand() + "fast?"+ c.isFast());
         }
 
+        c1.setSpeed(200);
+        c1.setSpeed(-300);
     }
 }
