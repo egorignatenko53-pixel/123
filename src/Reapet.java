@@ -3,16 +3,18 @@ public class Reapet {
         System.out.println("Привет, " + name + "!");
     }
     public static void main(String[] args) {
-        Student s1 = new Student();
-        s1.name = "Egor";
-        s1.grade = 85;
+        Student s1 = new Student("Egor",85);
+        Student s2 = new Student("Alina",45);
+        Books b1 = new Books("Atomic habits",2021);
+        Books b2 = new Books("My little Pony",2011);
 
-        Student s2 = new Student();
-        s2.name = "Alina";
-        s2.grade = 45;
 
         System.out.println(s1.name + " — оценка: " + s1.grade);
         System.out.println(s2.name + " — оценка: " + s2.grade);
+
+
+        System.out.println(b1.name + " — Моя любимая книга: " + b1.year);
+        System.out.println(b2.name + " — Моя любимая книга: " + b2.year);
 
         int age = 2;
         System.out.println("Я вернулся и меня не было ровно "+ age +" месяца");
