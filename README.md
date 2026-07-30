@@ -37,6 +37,9 @@
 ### Коллекции
 - ArrayList: добавление (`add`), перебор, `size`, `contains`, `get`
 
+### Hash MAP 
+- HashMap: пары ключ-значение (`put`, `get`, `containsKey`)
+
 ## Стек
 
 - Java
