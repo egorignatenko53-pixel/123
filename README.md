@@ -40,6 +40,9 @@
 ### Hash MAP 
 - HashMap: пары ключ-значение (`put`, `get`, `containsKey`)
 
+### Обработка ошибок
+- Исключения: `try/catch`, типы исключений, `getMessage()`
+
 ## Стек
 
 - Java
